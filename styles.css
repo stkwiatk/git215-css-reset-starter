@@ -28,8 +28,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+h1{
+  font-size: 48px;
+}
+
 body {
-	line-height: 1;
+	line-height: 1.4;
 }
 ol, ul {
 	list-style: none;
@@ -75,6 +79,7 @@ body{
     line-height: 1.4;
     background-color: var(--dk-gray);
     color: var(--dk-gray);
+  margin: 8px;
 }
 
 /* ----- CONTAINER WIDTH STYLES ----- */
